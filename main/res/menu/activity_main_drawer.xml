@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/leave_rules"
+            android:icon="@drawable/ic_book"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/apdss"
+            android:icon="@drawable/ic_book"
+            android:title="@string/conduct_rules" />
+        <item
+            android:id="@+id/conduct_rules"
+            android:icon="@drawable/ic_book"
+            android:title="@string/apdss" />
+        <item
+            android:id="@+id/service_rules"
+            android:icon="@drawable/ic_book"
+            android:title="@string/menu_tools" />
+    </group>
+
+</menu>
